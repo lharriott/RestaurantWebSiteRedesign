@@ -1,0 +1,74 @@
+<!--  
+File Name: Contact.Html
+Author:Lisa Harriott
+Date Modified: 5/1/2015
+Purpose: Page used for contacting the Joe and Eddies restaurant
+-->
+
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/html">
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="BasicStyles.css"/>
+		<title>Contact Us | Joe &amp; Eddie's</title>
+	</head>
+
+	<body>
+		<header> 
+			<img src="joe_eddies_header.jpg" alt="Family Restaurant Southern Homecooking Fort Walton Beach | Joe &amp; Eddies"/>
+		</header>
+	
+		<nav id="navmenu"> 
+			<ul>
+				<li><a href="joeandeddies.html"> Home </a></li>
+				<li><a href="menus.html"> Menus </a>
+					<ul id="subnav">
+						<li><a href="menus.html">Everyday Menu</a></li>
+						<li><a href="othermenus.html">Other Menus</a></li>
+					</ul></li>
+				<li><a href="location.html"> Location </a></li>
+				<li><a href="contact.html"> Contact us </a></li>
+			</ul>
+		</nav>
+		
+		<div id="connect">
+			<h3>Connect with us: </h3>
+			<a href="https://www.facebook.com/groups/295138052803/" target="_blank"> <img  id="facebook" src="find_us_on_facebook.jpg"/> </a>
+		</div>
+		
+		
+		<div id="mainsection">
+		
+			<h2 class="headingmain"> Contact Us</h2>
+		
+			<form id="contactform" action="MAILTO:joeandeddies@yahoo.com" method="post"
+			enctype="text/plain">
+				Your Name: </br>
+				<input type="text" name="name" align="right" required="required"> </br>
+				
+				Your Email Address: </br>
+				<input type="email" name="emailaddress" align="right"> </br>
+				
+				Comment or Message: </br>
+				<textarea form="contactform" rows="5" cols="50" name="message"
+				required="required" maxLength="300"></textarea> </br>
+					
+				<input type="submit" value="Submit" align="middle">
+				<input type="reset" value="Reset" align="middle"></br>
+			</form>
+			
+			</p> You can contact us using the form above or email us at 
+			joeandeddies@yahoo.com </p>
+		
+		</div>
+		
+	</body>
+	
+	<footer>
+         <address>
+            Joe &amp; Eddie's  &diams;
+            400 North Eglin Parkway &diams;
+            Fort Walton Beach, Fl 32547 &diams;
+            850.243.0733
+         </address>
+      </footer>

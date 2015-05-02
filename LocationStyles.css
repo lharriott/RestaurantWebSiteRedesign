@@ -1,0 +1,12 @@
+/*	File Name: LocationStyles.Css 
+	Author: Lisa Harriott
+	Date Modified: 5/1/2015
+	Purpose: Styles elements unique to the Location page on the joe and eddies site.*/
+
+#map-canvas{
+	width: 500px;
+	height: 400px;
+	background-color: #CCC;
+	margin-left: auto;
+	margin-right:auto;
+}

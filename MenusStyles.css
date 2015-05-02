@@ -1,0 +1,21 @@
+/*	File Name: MenusStyles.Css 
+	Author: Lisa Harriott
+	Date Modified: 5/1/2015
+	Purpose: Styles for elements unique to the Menus and Other Menus
+		page on the joe and eddies site.*/
+
+/*styles for the Menus page*/
+.menuimage{
+	width: 100%;
+	padding: 0px;
+}
+
+/*styles for the Other Menus page*/	
+#mainsection h3{
+	text-decoration: underline;
+}
+
+#small{
+	font-size: 75%;
+}
+

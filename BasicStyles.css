@@ -1,0 +1,134 @@
+/*	File Name: BasicStyles.Css 
+	Author: Lisa Harriott
+	Date Modified: 5/1/2015
+	Purpose: Styles for every page on the joe and eddies site.*/
+
+	
+/*sets default font style, background, and width */
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: white;
+	margin:0px;
+	color: black;
+	max-width: 1500px;
+	min-width: 900px;
+}
+
+/* header/footer margins and padding */
+header, footer {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/*header width*/
+header{
+	background-color: white;
+	width:70%;
+	min-width: 900px;
+}
+
+/*image scrolling*/
+header img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*colors and font for address*/
+footer address {
+	text-align:center;
+	clear: both;
+	width: 100%;
+	background-color: rgb(206, 32, 41);
+	color: white;
+	padding:10px;
+}
+
+
+/*styles for the navigatoinal lists*/
+#navmenu, #subnav{
+	list-style-type: none;
+	Float:left;
+	background-color: rgb(206, 32, 41);
+	padding: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#navmenu ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*positions the sub-navigational list off-screen*/
+#subnav{
+	position: absolute;
+	left: -999em;
+}
+
+#navmenu ul li, #subnav li{
+	padding:10px;
+	display: block;
+}
+
+#navmenu ul li:first-child a{
+	font-size: x-large;
+}
+
+#navmenu ul li:hover a{
+	border-bottom: solid white;
+}
+
+/*positions the sub-navigational menu back on screen*/
+#navmenu ul li:hover #subnav{
+	left:120px;
+	top: 375px;
+}
+
+#navmenu ul li:hover #subnav a{
+	color:white;
+	font-size:small;
+	border:none;
+}
+
+#navmenu ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large;
+	display: block;
+}
+
+/*sets the width for the link over the facebook image*/
+a #facebook{
+	width:82.5px;
+	height:25.2px;
+}
+
+/*styles for the connect with us block*/
+#connect{
+	float: right;
+	display: block;
+	color:white;
+	background-color: rgb(206, 32, 41);
+	vertical-align: bottom;
+	margin: 0px 5px;
+	padding: 10px;
+}
+
+/*styles for the colored headings featured on every page*/
+.headingmain{
+	text-align:center;
+	background-color: rgb(206, 32, 41);
+	color: white;
+	margin:0px;
+}
+
+/*div for the central content featured on each page*/
+#mainsection{
+	width: 65%;
+	display: block;
+	float: left;
+	background-color: white;
+	margin-bottom: 5px;
+	text-align: center;
+}
